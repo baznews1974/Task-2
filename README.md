@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تقرير بحثي: الذكاء الاصطناعي وتطبيقات الويب</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            margin: 20px auto;
+            max-width: 900px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 { margin-bottom: 10px; font-size: 24px; }
+        .student-info { font-size: 14px; opacity: 0.9; }
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        h3 { color: #333; }
+        .img-container { text-align: center; margin: 20px 0; }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #0056b3;
+        }
+        ul { padding-right: 20px; }
+        a { color: #0056b3; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+    <!-- 1. الترويسة وبيانات الطالب -->
+    <header>
+        <h1>تقرير بحثي: الذكاء الاصطناعي وتطبيقات الويب الحديثة</h1>
+        <div class="student-info">
+            <p><strong>اسم الطالب:</strong> أحمد محمد علي</p>
+            <p><strong>الرقم الجامعي:</strong> 202400123</p>
+            <p><strong>المادة:</strong> تطبيقات الإنترنت والمنصات الإلكترونية</p>
+        </div>
+    </header>
+
+    <!-- 2. قسم المقدمة -->
+    <section id="introduction">
+        <h2>المقدمة</h2>
+        <p>
+            يشهد عالم <strong>تكنولوجيا المعلومات</strong> تطوراً متسارعاً في الآونة الأخيرة، حيث أصبحت <strong>تطبيقات الويب والمنصات الرقمية</strong> جزءاً أساسياً من حياتنا اليومية. يهدف هذا التقرير إلى تسليط الضوء على دور الذكاء الاصطناعي في تطوير تحربة المستخدم وتحسين كفاءة المنصات الإلكترونية.
+        </p>
+    </section>
+
+    <!-- 3. قسم الصورة -->
+    <div class="img-container">
+        <!-- تذكر وضع صورة باسم header-image.jpg بجانب ملف index.html -->
+        <img src="header-image.jpg" alt="صورة تعبيرية عن الذكاء الاصطناعي والمنصات الرقمية">
+    </div>
+
+    <!-- 4. قسم عرض الموضوع -->
+    <section id="main-content">
+        <h2>عرض الموضوع</h2>
+        
+        <h3>أولاً: أثر الذكاء الاصطناعي على تطوير الويب</h3>
+        <p>
+            تُساهم تقنيات تعلم الآلة في تحليل سلوك المستخدم وتوفير محتوى مخصص يلبي تطلعاته. كما تساعد أدوات البرمجة الذكية المصممين والمطورين على إنشاء <b>واجهات تفاعلية</b> بشكل أسرع وأكثر دقة.
+        </p>
+
+        <h3>ثانياً: مقارنة بين أجيال الويب</h3>
+        <p>يوضح الجدول التالي المقارنة بين مراحل تطور منصات الويب:</p>
+
+        <!-- 5. الجدول -->
+        <table>
+            <thead>
+                <tr>
+                    <th>الجيل</th>
+                    <th>الخصائص الرئيسية</th>
+                    <th>درجة التفاعلية</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Web 1.0</td>
+                    <td>صفحات للقراءة فقط (قراءة ومحتوى ثابت)</td>
+                    <td>منخفضة جداً</td>
+                </tr>
+                <tr>
+                    <td>Web 2.0</td>
+                    <td>شبكات اجتماعية ومحتوى ينشئه المستخدمون</td>
+                    <td>عالية والتشاركية مرتفعة</td>
+                </tr>
+                <tr>
+                    <td>Web 3.0</td>
+                    <td>ذكاء اصطناعي، بيانات لامركزية، وتفاعل ذكي</td>
+                    <td>تفاعلية فائقة وشخصية</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- 6. قسم المراجع -->
+    <section id="references">
+        <h2>المراجع والمصادر</h2>
+        <p>تم الاعتماد على المصادر والمراجع التوضيحية التالية لإعداد التقرير:</p>
+        <ul>
+            <li>
+                <a href="https://developer.mozilla.org/ar/docs/Web/HTML" target="_blank" rel="noopener">
+                    شبكة مطوري موزيلا (MDN) - توثيق لغة HTML
+                </a>
+            </li>
+            <li>
+                <a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">
+                    موقع W3Schools - دروس أساسيات الويب و HTML
+                </a>
+            </li>
+            <li>
+                <a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noopener">
+                    موسوعة ويكيبيديا - مقال عن تطور تطبيقات الويب
+                </a>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
